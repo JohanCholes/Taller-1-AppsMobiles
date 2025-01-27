@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.deplace {
+    display: flex;
+
+    background-color: red;
+    padding-right: 80px;
+    padding-top: -30px;
+    font-size: 14px;
+    rotate: 270deg;
+    position: relative;
+}
+
+.cart{
+    position: relative;
+    padding-left: 80px;
+    font-size: 14px;
+    position: relative;
+}
+
+body {
+    text-align: center;
+    background-color: #fcf9ee;
+}
