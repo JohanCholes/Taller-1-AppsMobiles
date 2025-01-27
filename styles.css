@@ -5,10 +5,10 @@
 }
 
 .titulo {
-    font-size: 80px;
-    line-height: 1;
-    font-weight: bold;
-    margin-bottom: 40px;
+  font-size: 80px;
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 
 header {
@@ -36,21 +36,51 @@ body {
 }
 
 .collection {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
 .yellowpant {
-    max-width: 300px;
-    position: relative;
+  max-width: 300px;
 }
 
 .yellowpant img {
-    width: 80%;
-    height: auto;
+  width: 80%;
+  height: auto;
 }
 .redpant img {
-    width: 80%;
-    height: auto;
+  width: 80%;
+  height: auto;
+}
+
+.expl img {
+  width: 50%;
+  height: auto;
+}
+
+.Explore {
+  display: flex;
+  padding-right: 10%;
+  justify-content:flex-end;
+  padding-bottom: 5%;
+}
+
+.liston {
+  background: #ddc92a;
+  color: #000;
+  padding: 10px 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.listontxt{
+  display: inline-block;
+  animation: liston 20s linear infinite;
+}
+
+@keyframes liston {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
 }
