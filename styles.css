@@ -72,6 +72,23 @@ body {
   bottom: 34px;
 }
 
+.shop img {
+  position: relative;
+  width: 80px;
+  height: auto;
+  bottom: 29px;
+}
+
+.shopall{
+  position: relative;
+  display: flex;
+  right: 230px;
+  justify-content:flex-end;
+  font-family: 'Signate Grotesk', sans-serif;
+  font-size: 26px;
+  padding-top: 50px;
+}
+
 .Explore {
   position: relative;
   display: flex;
@@ -187,4 +204,35 @@ body {
   min-width: 500px;
   text-align: center;
   margin-right: 100px;
+}
+
+.footer {
+  background-color: #f8f5e9;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.review p{
+  position: relative;
+  left: 1300px;
+  bottom: 120px;
+  width: 600px;
+  font-size: 22px;
+  line-height: 1.2;
+  font-family: 'Signate Grotesk', sans-serif;
+  text-align:start;
+}
+.review{
+  padding-top: 140px;
+  padding-bottom: 80px;
+}
+
+.review img{
+  bottom: 15px;
+  position: relative;
+  left: 100px;
+  width: 250px;
+  height: auto;
 }
