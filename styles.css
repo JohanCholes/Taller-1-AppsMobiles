@@ -5,20 +5,24 @@
 }
 
 .titulo {
+  width: 500px;
+  height: 150px;
+  left: 200px;
+  position: relative;
   line-height: 0.9;
   margin-bottom: 20px;
 }
 
 header {
-  padding: 20;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .deplace {
-  padding-right: 3%;
-  padding-bottom: 2%;
+  position: relative;
+  top: 15px;
+  left: 20px;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   font-size: 13px;
@@ -28,8 +32,10 @@ header {
 }
 
 .cart {
-  padding-left: 80px;
-  font-size: 14px;
+  right: 30px;
+  bottom: 15px;
+  position: relative;
+  font-size: 12px;
   font-family: 'signate Grotesk', sans-serif;
 }
 
@@ -39,35 +45,37 @@ body {
 }
 
 .collection {
-
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
 }
 
-.yellowpant {
-  max-width: 300px;
-}
-
 .yellowpant img {
-  width: 80%;
+  position: relative;
+  left: 1px;
+  width: 240px;
   height: auto;
 }
 .redpant img {
-  width: 80%;
+  position: relative;
+  left: 26px;
+  width: 240px;
   height: auto;
 }
 
 .expl img {
-  width: 50%;
+  position: relative;
+  width: 35px;
   height: auto;
+  bottom: 12px;
 }
 
 .Explore {
+  position: relative;
   display: flex;
-  padding-right: 10%;
+  right: 178px;
   justify-content:flex-end;
-  padding-bottom: 5%;
+  padding-bottom: 50px;
   font-family: 'Signate Grotesk', sans-serif;
   font-size: 12px;
 }
@@ -94,7 +102,7 @@ body {
 }
 
 .about {
-  padding: 9% 14.5% 5%;
+  padding: 110px 100px 110px 110px;
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
@@ -138,13 +146,16 @@ body {
 
 
 .fuentetitle{
+  display: flex;
+  position: absolute;
   font-size: 80px;
   font-family: 'Signate Grotesk', sans-serif;
 }
 
 .fuentetitleMinor{
-  font-size: 24px; 
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  font-size: 33px; 
   font-family: 'Nothing You Could Do', serif;
-  padding-left: 50%;
-  background-color: red;
 }
