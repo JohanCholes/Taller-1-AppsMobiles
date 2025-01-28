@@ -236,3 +236,85 @@ body {
   width: 250px;
   height: auto;
 }
+
+.footer {
+  font-family: 'Signate Grotesk', sans-serif;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.section p {
+  justify-content: space-between;
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.section img{
+  display: flex;
+  justify-content: start;
+  bottom: 10px;
+  position: relative;
+  width: 50px;
+  height: auto;
+}
+
+#abajo{
+  position: relative;
+  top: 15px;
+  font-size: 12px;
+  padding-bottom: 9px;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  font-size: 14px;
+  outline: none;
+}
+
+.correo {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 20px;
+}
+
+.form button {
+  position: relative;
+  left: 226px;
+  bottom: 30px;
+  background: none;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+#creditos{
+  padding-top: 30px;
+  position: relative;
+}
+
+#copyright{
+  padding-top: 30px;
+  position: relative;
+}
+
+.INFO, .POLICY {
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  list-style: none;
+  margin-bottom: 10px;
+  line-height: 2;
+  font-size: 17px;
+}
+
+
+.botonarriba {
+  transform: rotate(-90deg);
+}
