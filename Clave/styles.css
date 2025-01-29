@@ -1,0 +1,35 @@
+#teclado{
+  border:1px solid grey;
+  width:200px;
+  height:330px;
+  text-align:center;
+}
+.clave{
+  width:202px;
+  height:40px;
+  padding-left:10px;
+  box-sizing:border-box;
+}
+.tecla{
+  width:60px;
+  height:60px;
+  background:black;
+  color:white;
+  border:none;
+  border-radius:8px;
+  margin-top:5px;
+}
+.tecla:hover{
+  background:grey;
+}
+.borrar{
+  width:125px;
+}
+.enviar {
+  background: rgb(0, 128, 0);
+  width:190px;
+}
+.caja_clave{
+  width:200px;
+  margin:0 auto;
+}
