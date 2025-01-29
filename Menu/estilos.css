@@ -94,6 +94,10 @@ header {
     height: auto; 
 }
 
+#logo-js {
+    max-width: 50%; /* Modificación específica para esta imagen */
+}
+
 body {
     overflow: hidden; 
 }
